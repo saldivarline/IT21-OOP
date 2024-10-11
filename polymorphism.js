@@ -25,6 +25,6 @@ class Student extends Person{
       }
 
 }
-      var student = new Student("Sander", 1);
+      var student = new Student("eve", 1);
       student.logDetails();
       student.sayName();
