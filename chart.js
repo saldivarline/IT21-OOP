@@ -4,7 +4,8 @@ class ChartCreator {
       this.barCtx = document.getElementById("barChart");
       this.pieCtx = document.getElementById("pieChart");
     }
-  
+
+    
     async fetchData() {
       try {
         const response = await fetch(this.dataUrl);
